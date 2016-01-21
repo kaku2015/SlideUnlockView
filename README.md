@@ -1,7 +1,7 @@
 # SlideUnlockView
 Slide unlock view.
 
-![image](https://github.com/kaku2015/SlidingView/blob/master/sample/screenshots/show.jif)
+![image](https://github.com/kaku2015/SlidingView/blob/master/sample/screenshots/show.gif)
 
 # Usage
 The sliding contents are wrapped in SlideUnlockView.
