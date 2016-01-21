@@ -1,0 +1,37 @@
+<FrameLayout
+    android:id="@+id/background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#009688"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.kaku.sldv.SlideUnlockView
+        android:id="@+id/slide_unlock_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/lock_screen"
+            android:textColor="@android:color/white"
+            android:textSize="26sp"/>
+
+
+        <TextView
+            android:id="@+id/sliding_tip_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/anim_sliding_tip"
+            android:gravity="center"
+            android:text="@string/slide_right_unlock"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"/>
+    </com.kaku.sldv.SlideUnlockView>
+</FrameLayout>

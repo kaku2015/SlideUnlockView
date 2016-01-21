@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SlidingView</string>
+    <string name="lock_screen">Lock screen</string>
+    <string name="slide_right_unlock">Slide right unlock</string>
+</resources>
